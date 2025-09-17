@@ -123,5 +123,17 @@ app.prepare().then(() => {
 
 ```
 
+### Environment Variables
+
+Create a .env.local file in the project root:
+
+```bash
+NEXT_PUBLIC_SOCKET_URL=http://localhost:3000
+
+```
+
+NEXT_PUBLIC_SOCKET_URL: URL used by the client to connect to Socket.IO server.
+PORT: Port where Express and Next.js serve the application.
+
 This structure ensures clarity, correctness, and easier onboarding for other developers.
 Add any additional environment variables and instructions depending on your specific needs.
