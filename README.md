@@ -19,7 +19,7 @@ It serves as a solid foundation for adding real-time communication features to y
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/sushil-up/socket
    ```
 
 2. Install dependencies:
